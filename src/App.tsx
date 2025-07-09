@@ -1,8 +1,10 @@
-function App() {
+import {Login} from "./components/login"
+
+const App = () => {
   return (
-    <>
-      
-    </>
+    <div>
+      <Login />
+    </div>
   )
 }
 
