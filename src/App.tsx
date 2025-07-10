@@ -1,9 +1,9 @@
-import FilterBar from "./components/filterBar"
+import NavBar from "./components/navBar"
 
 const App = () => {
   return (
     <div>
-      <FilterBar />
+      <NavBar />
     </div>
 
   )
