@@ -1,10 +1,9 @@
-import Sidebar from "./components/sideBar"
-import { SearchBar } from "./components/searchBar"
+import FilterBar from "./components/filterBar"
 
 const App = () => {
   return (
     <div>
-      <SearchBar />
+      <FilterBar />
     </div>
 
   )
