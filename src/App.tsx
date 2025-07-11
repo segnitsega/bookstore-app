@@ -3,6 +3,7 @@ import NavBar from "./components/navBar";
 import SideBar from "./components/sideBar";
 import TableDashboard from "./components/table-dashboard";
 import Statistics from "./components/statistics";
+import DropDown from "./components/drop-down-menu";
 
 const App = () => {
   return (
@@ -16,7 +17,8 @@ const App = () => {
         </div>
        
        </div> */}
-      <Statistics />
+      {/* <Statistics /> */}
+     <DropDown />
     </div>
   );
 };
