@@ -4,7 +4,7 @@ import SideBar from "./components/sideBar";
 import TableDashboard from "./components/table-dashboard";
 import Statistics from "./components/statistics";
 import DropDown from "./components/drop-down-menu";
-import {Chart} from "./components/chart";
+import { Chart } from "./components/chart";
 import Reviews from "./components/reviews";
 import Profile from "./components/profile";
 import Home from "./pages/home";
@@ -15,6 +15,12 @@ import Recommendations from "./components/recommendations";
 const App = () => {
   return (
     <div>
+      <div className="flex gap-4">
+        <SideBar />
+        <Home />
+      </div>
+
+      {/* <Home /> */}
       {/* <NavBar />
       <div className="flex items-baseline">
         <SideBar />
@@ -25,11 +31,10 @@ const App = () => {
        
        </div> */}
       {/* <Statistics /> */}
-     {/* <Chart /> */}
-        {/* <Home /> */}
-        <Feed />
-        {/* <Recommendations /> */}
-
+      {/* <Chart /> */}
+      {/* <Home /> */}
+      {/* <Feed /> */}
+      {/* <Recommendations /> */}
     </div>
   );
 };
