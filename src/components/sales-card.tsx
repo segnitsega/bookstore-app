@@ -1,5 +1,5 @@
 import { FaChartArea } from "react-icons/fa";
-const Card = () => {
+const SalesCard = () => {
   return (
     <div className="m-8 flex w-[200px] border border-gray-200 p-4 rounded-xl shadow">
       <FaChartArea className="bg-amber-500 text-white p-1 w-[30px] h-[20px] rounded-xl" />
@@ -14,4 +14,4 @@ const Card = () => {
   );
 };
 
-export default Card;
+export default SalesCard;

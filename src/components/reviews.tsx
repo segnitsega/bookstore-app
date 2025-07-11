@@ -3,7 +3,7 @@ import { FaComment, FaStar } from "react-icons/fa";
 
 const Reviews = () => {
   return (
-    <div className="m-16 flex w-[400px] border-b-2 border-gray-200 gap-2 p-2">
+    <div className="flex w-[400px] border-b-2 border-gray-200 gap-2 p-2">
       <img
         src={profile}
         alt="profile_picture"

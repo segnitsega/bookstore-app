@@ -6,6 +6,8 @@ import Statistics from "./components/statistics";
 import DropDown from "./components/drop-down-menu";
 import {Chart} from "./components/chart";
 import Reviews from "./components/reviews";
+import Profile from "./components/profile";
+import Home from "./pages/home";
 
 const App = () => {
   return (
@@ -19,9 +21,10 @@ const App = () => {
         </div>
        
        </div> */}
-      {/* <Statistics /> */}
+      <Statistics />
      {/* <Chart /> */}
-        <Reviews />
+        {/* <Home /> */}
+        {/* <Profile /> */}
     </div>
   );
 };
