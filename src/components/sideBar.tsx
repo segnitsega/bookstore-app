@@ -9,9 +9,9 @@ import {
   FaSignOutAlt,
 } from "react-icons/fa";
 
-const sideBar = () => {
+const SideBar = () => {
   return (
-    <div className="flex flex-col justify-between bg-amber-500 text-white w-[200px] h-screen p-6 rounded-xl ">
+    <div className="flex flex-col justify-between bg-amber-500 text-white w-[250px] h-[555px] p-6 rounded-xl text-lg">
       <div className="flex flex-col gap-2">
         <div className="flex gap-2">
           <FaHome />
@@ -54,4 +54,4 @@ const sideBar = () => {
   );
 };
 
-export default sideBar;
+export default SideBar;
