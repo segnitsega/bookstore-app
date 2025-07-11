@@ -8,6 +8,9 @@ import {Chart} from "./components/chart";
 import Reviews from "./components/reviews";
 import Profile from "./components/profile";
 import Home from "./pages/home";
+import Feed from "./components/feed";
+
+import Recommendations from "./components/recommendations";
 
 const App = () => {
   return (
@@ -21,10 +24,12 @@ const App = () => {
         </div>
        
        </div> */}
-      <Statistics />
+      {/* <Statistics /> */}
      {/* <Chart /> */}
         {/* <Home /> */}
-        {/* <Profile /> */}
+        <Feed />
+        {/* <Recommendations /> */}
+
     </div>
   );
 };

@@ -3,6 +3,7 @@
 import { ChartConfig, ChartContainer } from "@/components/ui/chart";
 import { Bar, BarChart, CartesianGrid, XAxis } from "recharts";
 import { ChartTooltip, ChartTooltipContent } from "@/components/ui/chart";
+import DropDown from "./drop-down-menu";
 
 const chartData = [
   { month: "January", desktop: 186, mobile: 80 },
@@ -26,8 +27,13 @@ const chartConfig = {
 } satisfies ChartConfig;
 export function Chart() {
   return (
-    <div className="m-8">
-      <ChartContainer config={chartConfig} className="min-h-[200px] w-[500px]">
+    <div className="">
+      <div className="flex justify-between w-[600px] mb-4">
+        <h1>Book overview</h1>
+        <DropDown />
+      </div>
+
+      <ChartContainer config={chartConfig} className="min-h-[200px] w-[500px] ml-8">
         <BarChart accessibilityLayer data={chartData}>
           <CartesianGrid vertical={false} />
           <XAxis

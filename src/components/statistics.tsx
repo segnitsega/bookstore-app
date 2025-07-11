@@ -6,7 +6,7 @@ import { Button } from "./ui/button";
 import { FaArrowRight } from "react-icons/fa";
 const Statistics = () => {
   return (
-    <div className="border border-gray-200 w-[600px] p-4 rounded-lg shadow ">
+    <div className="border border-gray-200 w-[600px] h-[320px] p-4 rounded-lg shadow ">
       <div className="flex justify-between">
         <h1>Statistics</h1>
         <DropDown />
