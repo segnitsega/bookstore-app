@@ -5,6 +5,7 @@ import TableDashboard from "./components/table-dashboard";
 import Statistics from "./components/statistics";
 import DropDown from "./components/drop-down-menu";
 import {Chart} from "./components/chart";
+import Reviews from "./components/reviews";
 
 const App = () => {
   return (
@@ -19,7 +20,8 @@ const App = () => {
        
        </div> */}
       {/* <Statistics /> */}
-     <Chart />
+     {/* <Chart /> */}
+        <Reviews />
     </div>
   );
 };
