@@ -2,6 +2,7 @@ import FeedNavBar from "./components/feedNavBar";
 import NavBar from "./components/navBar";
 import SideBar from "./components/sideBar";
 import TableDashboard from "./components/table-dashboard";
+import Statistics from "./components/statistics";
 
 const App = () => {
   return (
@@ -9,9 +10,13 @@ const App = () => {
       {/* <NavBar />
       <div className="flex items-baseline">
         <SideBar />
-      <FeedNavBar /> 
-       </div>*/}
-      <TableDashboard />
+        <div>
+           <FeedNavBar /> 
+       <TableDashboard />
+        </div>
+       
+       </div> */}
+      <Statistics />
     </div>
   );
 };
